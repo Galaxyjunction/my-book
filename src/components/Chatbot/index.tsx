@@ -55,7 +55,7 @@ const Chatbot: React.FC = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch(`${API_URL}/chat`, {
+      const response = await fetch(`const response = await fetch('https://physical-ai-backend-production-82bb.up.railway.app/chat', {/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
